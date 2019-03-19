@@ -13,6 +13,7 @@ hr {
   height: 10px;
   color: #45b29a;
   border-width: 5px;
+  padding-bottom: 20px;
 }
 
 a {
@@ -46,7 +47,7 @@ a:hover {
   font-family: 'Gothic A1', sans-serif;
   color: #32dbc6;
   font-size: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 20px;
 }
 
 .profile_pic {
