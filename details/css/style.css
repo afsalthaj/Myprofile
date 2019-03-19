@@ -75,8 +75,14 @@ a:hover {
   filter: alpha(opacity=100); /* For IE8 and earlier */
 }
 
+.techimage:hover {
+  opacity: 1;
+}
+
 .skill-row {
-
   padding-bottom: 20px;
+}
 
+.contact-me {
+  padding-bottom: 20px;
 }
