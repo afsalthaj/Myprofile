@@ -1,19 +1,68 @@
-body {
-  background-color: #f3f8ff
+body{
+    text-align: center;
+    background-color: #b7fbff;
 }
 
 hr {
-  border-style: none;
-  border-top: dotted;
-  border-width:thick;
+  border-style: dotted;
+  border-top:: 10px;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
   width: 5%;
-  border-color: grey;
+  height: 10px;
+  color: #45b29a;
+  border-width: 5px;
 }
 
-h3 {
-  color: #71a0a5
+a {
+  text-decoration: none !important;
+  color: #32dbc6;
+  font-style: italic;
 }
 
-h1 {
-  color: #71a0a5
+a:hover {
+  color: grey;
+}
+
+.heading {
+  font-family: 'ZCOOL XiaoWei', serif;
+  font-family: 'Barlow', sans-serif;
+  font-family: 'Great Vibes', cursive;
+  color: #32dbc6;
+  width: 100%;
+  font-size: 30
+  display: inline-block;
+  margin-top: 100px;
+  padding-top: 1px;
+  padding-bottom: 30px;
+}
+
+.subheading {
+  margin-top: 30px;
+  font-family: 'ZCOOL XiaoWei', serif;
+  font-family: 'Barlow', sans-serif;
+  font-family: 'Great Vibes', cursive;
+  font-family: 'Gothic A1', sans-serif;
+  color: #32dbc6;
+  font-size: 15px;
+  padding-bottom: 15px;
+}
+
+.profile_pic {
+  width: 30%;
+  position: relative;
+  height: 170px;
+  width: 170px;
+  padding-bottom: 20px;
+}
+
+.techimage {
+  position: relative;
+  display: inline;
+  margin-top: 10px;
+  margin-right: 20px;
+  height: 70px;
+  opacity: 0.1;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
 }
